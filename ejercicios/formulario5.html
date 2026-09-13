@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Select con optgroup</title>
+<link rel="stylesheet" href="../styles/formulario5.css">
+</head>
+<body>
+<main>
+<h1>Solicitud de contacto</h1>
+<form action="#" method="post">
+<div class="form-field">
+<label for="area">Departamento o servicio</label>
+<select id="area" name="area" required>
+<option value="" selected disabled>Seleccione una opción</option>
+<optgroup label="Departamentos">
+<option value="ventas">Ventas</option>
+<option value="soporte">Soporte</option>
+<option value="recursos-humanos">Recursos Humanos</option>
+</optgroup>
+<optgroup label="Servicios">
+<option value="pentesting">Pentesting</option>
+<option value="devsecops">DevSecOps</option>
+<option value="ai-security">AI Security</option>
+</optgroup>
+</select>
+</div>
+<div class="form-actions">
+<button type="submit">Enviar</button>
+<button type="reset">Limpiar</button>
+</div>
+</form>
+</main>
+</body>
+</html>
