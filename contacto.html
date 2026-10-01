@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaludVida Hospital | Contacto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="barra-superior">
+        <div class="info-izquierda">
+            <i class="bi bi-geo-alt-fill"></i> Carrera 24A # 4-06, Pasto
+            <i class="bi bi-telephone-fill" style="margin-left: 20px;"></i> +57 3167226097
+        </div>
+        <div class="info-derecha">
+            <a href="#">Pacientes</a> | 
+            <a href="#">Profesionales</a> | 
+            <a href="#">Portal en línea</a>
+        </div>
+    </div>
+
+    <header class="menu-principal">
+        <a href="index.html" class="logo">
+            <img src="img/logos/logo-saludvida-header.png" alt="Salud Vida Hospital" height="50">
+        </a>
+        <nav class="enlaces">
+            <a href="index.html">Inicio</a>
+            <a href="#">Noticias</a>
+            <a href="#">Servicios</a>
+            <a href="#">Nosotros</a>
+            <a href="contacto.html" style="color: #0260b8;">Contacto</a>
+        </nav>
+        <div class="icono-buscar">
+            <i class="bi bi-search"></i>
+        </div>
+    </header>
+
+    <main>
+        <section class="seccion-hero hero-contacto">
+            <div class="caja-texto-hero">
+                <h1>Contáctanos</h1>
+                <p>Estamos aquí para ayudarte. Completa el formulario<br>y nos pondremos en contacto contigo.</p>
+            </div>
+        </section>
+
+        <section class="contenedor seccion-contacto">
+            <div class="grilla-contacto">
+                <div class="formulario">
+                    <h2>Formulario de contacto</h2>
+                    <p style="color: #666; margin-bottom: 20px;">Diligencia tus datos y cuéntanos cómo podemos ayudarte.</p>
+                    
+                    <form action="#" method="POST">
+                        <div class="grupo-input">
+                            <label>Nombre completo *</label>
+                            <input type="text" placeholder="Tu nombre completo" required>
+                        </div>
+
+                        <div class="grilla-2">
+                            <div class="grupo-input">
+                                <label>Tipo de documento *</label>
+                                <select required>
+                                    <option value="">Selecciona una opción</option>
+                                    <option>Cédula de Ciudadanía</option>
+                                    <option>Tarjeta de Identidad</option>
+                                    <option>Pasaporte</option>
+                                </select>
+                            </div>
+                            <div class="grupo-input">
+                                <label>Número de documento *</label>
+                                <input type="text" placeholder="Número de documento" required>
+                            </div>
+                        </div>
+
+                        <div class="grilla-2">
+                            <div class="grupo-input">
+                                <label>Fecha de nacimiento</label>
+                                <input type="date">
+                            </div>
+                            <div class="grupo-input">
+                                <label>Correo electrónico *</label>
+                                <input type="email" placeholder="tucorreo@ejemplo.com" required>
+                            </div>
+                        </div>
+
+                        <div class="grilla-2">
+                            <div class="grupo-input">
+                                <label>Teléfono *</label>
+                                <input type="tel" placeholder="Número de teléfono" required>
+                            </div>
+                            <div class="grupo-input">
+                                <label>Ciudad *</label>
+                                <select required>
+                                    <option value="">Selecciona una ciudad</option>
+                                    <option>Bogotá</option>
+                                    <option>Medellín</option>
+                                    <option>Cali</option>
+                                    <option>Pasto</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="grupo-input">
+                            <label>Servicio de interés *</label>
+                            <select required>
+                                <option value="">Selecciona un servicio</option>
+                                <option>Consulta externa</option>
+                                <option>Urgencias</option>
+                                <option>Hospitalización</option>
+                            </select>
+                        </div>
+
+                        <div class="grupo-input">
+                            <label>Motivo del contacto *</label>
+                            <div class="grilla-2" style="margin-top: 5px;">
+                                <div><input type="radio" name="motivo" checked> Solicitar información</div>
+                                <div><input type="radio" name="motivo"> Agendar una cita</div>
+                                <div><input type="radio" name="motivo"> Comentario o sugerencia</div>
+                                <div><input type="radio" name="motivo"> Otro</div>
+                            </div>
+                        </div>
+
+                        <div class="grupo-input">
+                            <label>Mensaje *</label>
+                            <textarea rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                        </div>
+
+                        <div class="grupo-input" style="display: flex; align-items: center; gap: 10px;">
+                            <input type="checkbox" id="politica" required>
+                            <label for="politica" style="margin: 0; font-weight: normal;">Acepto la <a href="#" style="color: #005eb8;">política de tratamiento de datos personales</a>. *</label>
+                        </div>
+
+                        <button type="submit" class="boton-azul">Enviar mensaje <i class="bi bi-arrow-right"></i></button>
+                    </form>
+                </div>
+
+                <div class="info-lateral">
+                    <h2>Información de contacto</h2>
+                    
+                    <div class="item-info">
+                        <i class="bi bi-geo-alt"></i>
+                        <div>
+                            <strong>Dirección</strong>
+                            <p>Carrera 24A #4-06<br>Pasto, Colombia</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item-info">
+                        <i class="bi bi-telephone"></i>
+                        <div>
+                            <strong>Teléfono</strong>
+                            <p>+57 3167226097</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item-info">
+                        <i class="bi bi-envelope"></i>
+                        <div>
+                            <strong>Correo electrónico</strong>
+                            <p>risueno577@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item-info">
+                        <i class="bi bi-clock"></i>
+                        <div>
+                            <strong>Horario de atención</strong>
+                            <p>Lunes a viernes<br>7:00 a.m. - 6:00 p.m.<br>Sábados<br>7:00 a.m. - 12:00 m.</p>
+                        </div>
+                    </div>
+
+                    <h3 style="margin-top: 30px; margin-bottom: 15px;">Ubícanos en el mapa</h3>
+                    <div class="mapa-placeholder">
+                        <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=400" alt="Mapa" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+                        <i class="bi bi-geo-alt-fill map-pin"></i>
+                    </div>
+
+                    <br>
+                    <h3>Síguenos en redes sociales</h3>
+                    <div class="redes-cuadradas">
+                        <a href="#" style="background-color: #1877f2;"><i class="bi bi-facebook"></i></a>
+                        <a href="#" style="background-color: #e4405f;"><i class="bi bi-instagram"></i></a>
+                        <a href="#" style="background-color: #0a66c2;"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" style="background-color: #ff0000;"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="contenedor grilla-footer">
+            <div class="columna-footer">
+                <a href="index.html">
+                    <img src="img/logos/logo-saludvida-footer.png" alt="Salud Vida Hospital" height="50">
+                </a>
+            </div>
+            <div class="columna-footer">
+                <h4>Síguenos</h4>
+                <div class="redes-sociales">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+            <div class="columna-footer">
+                <h4>Enlaces rápidos</h4>
+                <a href="index.html">Inicio</a>
+                <a href="#">Noticias</a>
+                <a href="#">Servicios</a>
+                <a href="#">Nosotros</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+            <div class="columna-footer">
+                <h4>Información</h4>
+                <p>Carrera 24A #4-06, Pasto</p>
+                <p>+57 3167226097</p>
+                <p>risueno577@gmail.com</p>
+            </div>
+        </div>
+        <div class="contenedor footer-abajo">
+            <p>&copy; 2026 Hospital SaludVida. Todos los derechos reservados.</p>
+            <p>
+                <a href="#">Política de privacidad</a> | 
+                <a href="#">Términos de uso</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
